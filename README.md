@@ -61,3 +61,63 @@ Requirement Analysis involves several key activities that ensure a clear underst
 
 ---
 
+## Types of Requirements
+
+### **Functional Requirements**
+Functional requirements define the specific behaviors, features, and interactions that the system must support. For a hotel booking management system (based on the case study of hotel booking apps like Airbnb or OYO), these include:
+
+- **Hotel Search and Discovery** – Users should be able to search for hotels based on location, check-in/check-out dates, and number of guests. The system should return a list of available hotels matching the search criteria.  
+- **Room Booking** – Users can select a hotel and room type, specify the duration of stay, and proceed to book the room. The system should handle room availability checks and prevent double bookings.  
+- **User Registration and Authentication** – Users must be able to create accounts, log in, and manage their profiles. The system should support secure authentication mechanisms.  
+- **Payment Processing** – The system should integrate with payment gateways to process transactions securely, supporting various payment methods.  
+- **Booking Management** – Users should be able to view, modify, or cancel their bookings. The system should update availability and notify users of any changes.  
+
+### **Non-functional Requirements**
+Non-functional requirements specify the quality attributes and constraints of the system. For the hotel booking management system, these include:
+
+- **Performance** – The system should handle a high volume of concurrent users, with response times under 500 milliseconds for search queries and booking operations.  
+- **Scalability** – The architecture should support horizontal scaling to accommodate increasing numbers of users and data.  
+- **Availability** – The system should ensure high availability, with uptime of 99.9% or higher, to provide uninterrupted service to users.  
+- **Security** – User data, including personal and payment information, should be encrypted and stored securely. The system should comply with relevant data protection regulations.  
+- **Usability** – The user interface should be intuitive and accessible, providing a seamless experience across devices.
+
+---
+
+## Use Case Diagrams
+
+### What are Use Case Diagrams?
+Use Case Diagrams are a visual representation of how different users (called *actors*) interact with a system. They are part of the Unified Modeling Language (UML) and help describe the system’s functional behavior from a user’s point of view.  
+
+Use Case Diagrams show the relationship between **actors** (such as customers, administrators, or external systems) and **use cases** (the various functions or services the system provides).
+
+### Benefits of Use Case Diagrams
+- **Clarifies System Functionality:** Helps identify what the system should do and who will use it.  
+- **Improves Communication:** Provides a simple, visual way to explain system behavior to both technical and non-technical stakeholders.  
+- **Aids in Requirement Analysis:** Ensures that all user interactions are captured and understood early in the development process.  
+- **Supports Design and Testing:** Serves as a foundation for creating design specifications and test cases.
+
+---
+
+### Use Case Diagram for the Booking Management System
+
+Below is the use case diagram representing the main interactions between users and the system.
+
+![Use Case Diagram for Booking Management System]([alx-booking-uc.png](https://drive.google.com/file/d/1K1SQBmSJHGfVJMmMxK7dlXKlDINSRvRF/view?usp=sharing))
+
+**Actors:**
+- **Customer** – Searches hotels, makes bookings, manages reservations, and makes payments.  
+- **Admin** – Manages hotel listings, verifies availability, and updates pricing or details.  
+- **Payment Gateway** – Processes and validates online transactions.  
+
+**Main Use Cases:**
+- Search Hotels  
+- View Hotel Details  
+- Register/Login  
+- Book Room  
+- Make Payment  
+- Cancel Booking  
+- Manage Listings (Admin)  
+- Confirm Payment (Payment Gateway)  
+
+---
+
