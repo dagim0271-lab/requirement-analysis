@@ -102,7 +102,8 @@ Use Case Diagrams show the relationship between **actors** (such as customers, a
 
 Below is the use case diagram representing the main interactions between users and the system.
 
-![Use Case Diagram for Booking Management System]([alx-booking-uc.png](https://drive.google.com/file/d/1K1SQBmSJHGfVJMmMxK7dlXKlDINSRvRF/view?usp=sharing))
+![Use Case Diagram for Booking Management System](alx-booking-uc.png)
+
 
 **Actors:**
 - **Customer** – Searches hotels, makes bookings, manages reservations, and makes payments.  
